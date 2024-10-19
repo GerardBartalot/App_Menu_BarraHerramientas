@@ -19,7 +19,7 @@ public class LaminaHerramientas extends JPanel {
 
         // Crear la barra de herramientas
         barraHerramientas = new JToolBar("Color", JToolBar.VERTICAL);
-        barraHerramientas.setFloatable(true); // Permitir que la barra de herramientas se mueva
+        barraHerramientas.setFloatable(true);
 
         // Configuración de acciones
         accionAmarillo = new AccionColor(new ImageIcon(redimensionarImagen("src/appMenuYBarraDeHerramientas/bolaamarilla.png", 30, 30)), Color.YELLOW);
@@ -28,7 +28,7 @@ public class LaminaHerramientas extends JPanel {
         accionCerrar = new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                marcoPrincipal.dispose();  // Cierra la ventana al hacer clic en la "X"
+                marcoPrincipal.dispose();
             }
         };
         
