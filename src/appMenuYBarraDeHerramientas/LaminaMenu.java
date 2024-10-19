@@ -5,7 +5,8 @@ import javax.swing.*;
 public class LaminaMenu extends JPanel {
 
     public LaminaMenu() {
-        JMenuBar mibarra = new JMenuBar();
+        
+    	JMenuBar mibarra = new JMenuBar();
 
         JMenu archivo = new JMenu("Archivo");
         JMenu edicion = new JMenu("Edición");
